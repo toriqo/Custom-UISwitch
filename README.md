@@ -21,4 +21,6 @@ Also, the switch works being syncronized with NSUserDefaults and NSUbiquitousKey
 in this sample app to reflect that (once you launch it, go to your device's Settings > UISwitch and change it - it'll reflect in
 the custom switch as well).
 
+Switch design by [Han Wang](http://dribbble.com/jr1985)
+
 Any feedback is welcome!
