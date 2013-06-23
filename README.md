@@ -13,7 +13,7 @@ The class simply uses four views:
   - One view for the "OFF" background
   - One view for the nob
 
-To use it, simply include FLACustomSwitch.h and FLACustomSwitch.m in your project and simply init the switch with:
+To use it, simply include FLACustomSwitch.h and FLACustomSwitch.m in your project and then init the switch with:
 
     [[FLACustomSwitch alloc] initWithFrame:CGRect];
 
