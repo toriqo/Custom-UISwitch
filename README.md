@@ -1,7 +1,7 @@
 Custom UISwitch
 ===============
 
-->![Custom UISwitch](/UISwitch/Default.png?raw=true "Custom UISwitch")<-
+![Custom UISwitch](/UISwitch/Default.png?raw=true "Custom UISwitch")
 
 Allows you to add a custom skinned UISwitch for which you can use two images for each state:
 One background image + one nob image for the "OFF" steate and one background image + one nob image for the "ON" state.
