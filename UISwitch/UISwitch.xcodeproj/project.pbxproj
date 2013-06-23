@@ -15,6 +15,22 @@
 		8F1B57291777AA7500429B7E /* FLAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1B57281777AA7500429B7E /* FLAAppDelegate.m */; };
 		8F1B57321777AA7500429B7E /* FLAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1B57311777AA7500429B7E /* FLAViewController.m */; };
 		8F1B57351777AA7500429B7E /* FLAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F1B57331777AA7500429B7E /* FLAViewController.xib */; };
+		8F1B573E1777AAF200429B7E /* 57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1B573D1777AAF200429B7E /* 57x57.png */; };
+		8F1B57401777AAF500429B7E /* 114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1B573F1777AAF400429B7E /* 114x114.png */; };
+		8F1B57421777AAF800429B7E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1B57411777AAF800429B7E /* Default.png */; };
+		8F1B57441777AAFA00429B7E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1B57431777AAFA00429B7E /* Default@2x.png */; };
+		8F1B57461777AAFD00429B7E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1B57451777AAFD00429B7E /* Default-568h@2x.png */; };
+		8F1B57501777AB1000429B7E /* offBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1B57471777AB1000429B7E /* offBg.png */; };
+		8F1B57511777AB1000429B7E /* offBg@2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1B57481777AB1000429B7E /* offBg@2.png */; };
+		8F1B57521777AB1000429B7E /* offNob.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1B57491777AB1000429B7E /* offNob.png */; };
+		8F1B57531777AB1000429B7E /* offNob@2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1B574A1777AB1000429B7E /* offNob@2.png */; };
+		8F1B57541777AB1000429B7E /* onBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1B574B1777AB1000429B7E /* onBg.png */; };
+		8F1B57551777AB1000429B7E /* onBg@2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1B574C1777AB1000429B7E /* onBg@2.png */; };
+		8F1B57561777AB1000429B7E /* onNob.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1B574D1777AB1000429B7E /* onNob.png */; };
+		8F1B57571777AB1000429B7E /* onNob@2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1B574E1777AB1000429B7E /* onNob@2.png */; };
+		8F1B57581777AB1000429B7E /* viewBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1B574F1777AB1000429B7E /* viewBg.png */; };
+		8F1B575B1777AB9000429B7E /* FLACustomSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1B575A1777AB9000429B7E /* FLACustomSwitch.m */; };
+		8F1B575D1777AC8400429B7E /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8F1B575C1777AC8400429B7E /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +47,23 @@
 		8F1B57301777AA7500429B7E /* FLAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLAViewController.h; sourceTree = "<group>"; };
 		8F1B57311777AA7500429B7E /* FLAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLAViewController.m; sourceTree = "<group>"; };
 		8F1B57341777AA7500429B7E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FLAViewController.xib; sourceTree = "<group>"; };
+		8F1B573D1777AAF200429B7E /* 57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 57x57.png; path = ../57x57.png; sourceTree = "<group>"; };
+		8F1B573F1777AAF400429B7E /* 114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 114x114.png; path = ../114x114.png; sourceTree = "<group>"; };
+		8F1B57411777AAF800429B7E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		8F1B57431777AAFA00429B7E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		8F1B57451777AAFD00429B7E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		8F1B57471777AB1000429B7E /* offBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = offBg.png; sourceTree = "<group>"; };
+		8F1B57481777AB1000429B7E /* offBg@2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "offBg@2.png"; sourceTree = "<group>"; };
+		8F1B57491777AB1000429B7E /* offNob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = offNob.png; sourceTree = "<group>"; };
+		8F1B574A1777AB1000429B7E /* offNob@2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "offNob@2.png"; sourceTree = "<group>"; };
+		8F1B574B1777AB1000429B7E /* onBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onBg.png; sourceTree = "<group>"; };
+		8F1B574C1777AB1000429B7E /* onBg@2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "onBg@2.png"; sourceTree = "<group>"; };
+		8F1B574D1777AB1000429B7E /* onNob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onNob.png; sourceTree = "<group>"; };
+		8F1B574E1777AB1000429B7E /* onNob@2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "onNob@2.png"; sourceTree = "<group>"; };
+		8F1B574F1777AB1000429B7E /* viewBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = viewBg.png; sourceTree = "<group>"; };
+		8F1B57591777AB9000429B7E /* FLACustomSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLACustomSwitch.h; sourceTree = "<group>"; };
+		8F1B575A1777AB9000429B7E /* FLACustomSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLACustomSwitch.m; sourceTree = "<group>"; };
+		8F1B575C1777AC8400429B7E /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +114,8 @@
 				8F1B57281777AA7500429B7E /* FLAAppDelegate.m */,
 				8F1B57301777AA7500429B7E /* FLAViewController.h */,
 				8F1B57311777AA7500429B7E /* FLAViewController.m */,
+				8F1B57591777AB9000429B7E /* FLACustomSwitch.h */,
+				8F1B575A1777AB9000429B7E /* FLACustomSwitch.m */,
 				8F1B57331777AA7500429B7E /* FLAViewController.xib */,
 				8F1B571F1777AA7500429B7E /* Supporting Files */,
 			);
@@ -90,12 +125,43 @@
 		8F1B571F1777AA7500429B7E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8F1B573B1777AAD000429B7E /* Images */,
 				8F1B57201777AA7500429B7E /* UISwitch-Info.plist */,
 				8F1B57211777AA7500429B7E /* InfoPlist.strings */,
 				8F1B57241777AA7500429B7E /* main.m */,
 				8F1B57261777AA7500429B7E /* UISwitch-Prefix.pch */,
+				8F1B575C1777AC8400429B7E /* Settings.bundle */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F1B573B1777AAD000429B7E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8F1B573C1777AAD900429B7E /* Icons and splash screens */,
+				8F1B57471777AB1000429B7E /* offBg.png */,
+				8F1B57481777AB1000429B7E /* offBg@2.png */,
+				8F1B57491777AB1000429B7E /* offNob.png */,
+				8F1B574A1777AB1000429B7E /* offNob@2.png */,
+				8F1B574B1777AB1000429B7E /* onBg.png */,
+				8F1B574C1777AB1000429B7E /* onBg@2.png */,
+				8F1B574D1777AB1000429B7E /* onNob.png */,
+				8F1B574E1777AB1000429B7E /* onNob@2.png */,
+				8F1B574F1777AB1000429B7E /* viewBg.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		8F1B573C1777AAD900429B7E /* Icons and splash screens */ = {
+			isa = PBXGroup;
+			children = (
+				8F1B57451777AAFD00429B7E /* Default-568h@2x.png */,
+				8F1B57431777AAFA00429B7E /* Default@2x.png */,
+				8F1B57411777AAF800429B7E /* Default.png */,
+				8F1B573F1777AAF400429B7E /* 114x114.png */,
+				8F1B573D1777AAF200429B7E /* 57x57.png */,
+			);
+			name = "Icons and splash screens";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +218,21 @@
 			files = (
 				8F1B57231777AA7500429B7E /* InfoPlist.strings in Resources */,
 				8F1B57351777AA7500429B7E /* FLAViewController.xib in Resources */,
+				8F1B573E1777AAF200429B7E /* 57x57.png in Resources */,
+				8F1B57401777AAF500429B7E /* 114x114.png in Resources */,
+				8F1B57421777AAF800429B7E /* Default.png in Resources */,
+				8F1B57441777AAFA00429B7E /* Default@2x.png in Resources */,
+				8F1B57461777AAFD00429B7E /* Default-568h@2x.png in Resources */,
+				8F1B57501777AB1000429B7E /* offBg.png in Resources */,
+				8F1B57511777AB1000429B7E /* offBg@2.png in Resources */,
+				8F1B57521777AB1000429B7E /* offNob.png in Resources */,
+				8F1B57531777AB1000429B7E /* offNob@2.png in Resources */,
+				8F1B57541777AB1000429B7E /* onBg.png in Resources */,
+				8F1B57551777AB1000429B7E /* onBg@2.png in Resources */,
+				8F1B57561777AB1000429B7E /* onNob.png in Resources */,
+				8F1B57571777AB1000429B7E /* onNob@2.png in Resources */,
+				8F1B57581777AB1000429B7E /* viewBg.png in Resources */,
+				8F1B575D1777AC8400429B7E /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +246,7 @@
 				8F1B57251777AA7500429B7E /* main.m in Sources */,
 				8F1B57291777AA7500429B7E /* FLAAppDelegate.m in Sources */,
 				8F1B57321777AA7500429B7E /* FLAViewController.m in Sources */,
+				8F1B575B1777AB9000429B7E /* FLACustomSwitch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +337,7 @@
 				GCC_PREFIX_HEADER = "UISwitch/UISwitch-Prefix.pch";
 				INFOPLIST_FILE = "UISwitch/UISwitch-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -268,6 +351,7 @@
 				GCC_PREFIX_HEADER = "UISwitch/UISwitch-Prefix.pch";
 				INFOPLIST_FILE = "UISwitch/UISwitch-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

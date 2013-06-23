@@ -16,6 +16,12 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    // Set the defaults for the Settings Bundle (Settings > Custom Switch
+    
+    NSDictionary *appDefaults = @{kCustomSwitchKey: @YES};
+    [[NSUserDefaults standardUserDefaults] registerDefaults:appDefaults];
+    
     self.viewController = [[FLAViewController alloc] initWithNibName:@"FLAViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
@@ -36,12 +42,29 @@
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
-    // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+    // Used twice for ios7 DP which doesn't reflect the change otherwise (if the setting is changed in Settings > Custom Switch)
+    // Usually only having the syncronize only once here would be enough
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    self.viewController.customSwitch.on = [defaults boolForKey:kCustomSwitchKey];
+    self.viewController.customSwitchValue.text = [NSString stringWithFormat:@"%@",
+                                                  ([defaults boolForKey:kCustomSwitchKey]) ? @"ON" : @"OFF"];
+    [defaults synchronize];
+    
+    [self.viewController.customSwitch setNeedsDisplay];
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    // Used twice for ios7 DP which doesn't reflect the change otherwise (if the setting is changed in Settings > Custom Switch)
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    self.viewController.customSwitch.on = [defaults boolForKey:kCustomSwitchKey];
+    self.viewController.customSwitchValue.text = [NSString stringWithFormat:@"%@",
+                                                  ([defaults boolForKey:kCustomSwitchKey]) ? @"ON" : @"OFF"];
+    [defaults synchronize];
+    
+    [self.viewController.customSwitch setNeedsDisplay];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
